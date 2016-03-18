@@ -22,7 +22,9 @@
     "rc": "1.0.1",
     "request": "^2.69.0",
     "sails": "~0.12.1",
-    "sails-disk": "~0.10.9"
+    "sails-disk": "~0.10.9",
+    "waterlock": "^0.1.2-rc1",
+    "waterlock-local-auth": "^0.1.2-rc1"
   },
   "scripts": {
     "debug": "node debug app.js",

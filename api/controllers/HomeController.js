@@ -15,11 +15,10 @@ module.exports = {
 	admin: function (req, res) {
 		return res.view();
 	},
-
+	
 	login : function (req, res) {
 		return res.view({
 			layout: null
 		})
-	}
 };
 
