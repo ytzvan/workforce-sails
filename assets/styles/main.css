@@ -194,8 +194,9 @@ strong { font-weight: 600; }
 
 .navbar-brand { padding: 0 0 0 1em; }
 
-.navbar-brand .logo-nav,
-.nav-left { display: none; }
+.navbar-default .logo-nav { display: none; }
+.navbar-default .nav.navbar-nav.nav-left { display: none; }
+.navbar-default.stuck  .nav.navbar-nav.nav-left { display: block; }
 
 .navbar-default.stuck .logo-head { display: none; }
 
@@ -864,6 +865,44 @@ blockquote cite {
 }
 
 /* ==========================================================================
+   Language switcher
+   ========================================================================== */
+
+.language-switcher {
+  right: 80px;
+  top: 96px;
+  z-index: 10;
+  position: absolute;
+}
+
+.language-switcher .btn {
+  font-size: 15px;
+  text-transform: none;
+  padding: 0;
+  line-height: 0;
+}
+
+.language-switcher .btn,
+.language-switcher .btn:hover,
+.language-switcher.open>.dropdown-toggle.btn-default:hover,
+.language-switcher.open>.dropdown-toggle.btn-default,
+.language-switcher .btn:active,
+.language-switcher .btn:focus,
+.language-switcher .btn:active:hover,
+.language-switcher .btn:active:focus,
+.language-switcher.open>.dropdown-toggle.btn-default:focus {
+  background: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  color: #fff;
+}
+
+.language-switcher .dropdown-menu a img,
+.language-switcher .btn img { padding-right: 3px; }
+
+.language-switcher .dropdown-menu { top: 126%; }
+
+/* ==========================================================================
    19.Small devices (tablets, 768px and up)
    ========================================================================== */
    
@@ -921,6 +960,8 @@ blockquote::before {
 .tweet { font-size: 23px; }
 
 .sub-form .btn { padding: 1em 2em; }
+
+.language-switcher { right: 80px; }
 }
 
 /* ==========================================================================
@@ -958,7 +999,7 @@ blockquote::before {
 .contact.section-spacing { padding: 6em 0 0; }
 
 .features div[class="row"]:nth-child(1),
-.features div[class="row"]:nth-child(2) { margin-bottom: 0; }
+.features div[class="row"]:nth-child(2) { margin-bottom: 7.5em; }
 
 .features article { margin-top: 6em; }
 
@@ -1000,6 +1041,8 @@ blockquote::before {
 .site-footer small { margin: 0; }
 
 .section-spacing.site-footer { padding: 3em 0; }
+
+.language-switcher { top: 10px; }
 }
 
 @media (max-width: 460px) {

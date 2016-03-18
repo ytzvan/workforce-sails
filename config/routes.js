@@ -31,11 +31,18 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
+   /**Fallback **/
+  '/workforce':'/app/workforce',
+  '/admin' : '/app',
 
+  /**Main Routes **/
   '/': 'HomeController.landing',
   'get /login': 'HomeController.login',
   '/app':'HomeController.admin',
-  '/app/workforce' : 'WorkforceController.index'
+  '/app/workforce' : 'WorkforceController.index',
+
+
+
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
