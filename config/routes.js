@@ -33,15 +33,9 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': 'HomeController.landing',
-<<<<<<< HEAD
-  '/admin':'HomeController.admin',
-
   'get /login': 'HomeController.login',
-=======
   '/app':'HomeController.admin',
   '/app/workforce' : 'WorkforceController.index'
->>>>>>> b2d9538fb85e4c3146e2edd7c42f26e8edbdf7c9
-
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
