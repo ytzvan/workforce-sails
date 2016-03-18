@@ -14,6 +14,11 @@ module.exports = {
 
 	admin: function (req, res) {
 		return res.view();
+	},
+
+	company : function (req, res) {
+		console.log("entro");
+		return res.send("it works")
 	}
 };
 

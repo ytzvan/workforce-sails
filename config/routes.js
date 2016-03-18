@@ -33,7 +33,8 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': 'HomeController.landing',
-  '/admin':'HomeController.admin'
+  '/app':'HomeController.admin',
+  '/app/workforce' : 'WorkforceController.index'
 
   /***************************************************************************
   *                                                                          *
