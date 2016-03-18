@@ -33,7 +33,9 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': 'HomeController.landing',
-  '/admin':'HomeController.admin'
+  '/admin':'HomeController.admin',
+
+  'get /login': 'HomeController.login',
 
   /***************************************************************************
   *                                                                          *

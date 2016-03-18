@@ -98,21 +98,21 @@ module.exports.waterlock = {
 
       // This can be any one of the following
       //
-      // url - 'http://example.com'
+      //  url: '/workforce',
       // relativePath - '/blog/post'
       // obj - {controller: 'blog', action: 'post'}
       // string - 'custom json response string'
       // default - 'default'
-      success: 'default',
+      success: '/workforce',
 
       // This can be any one of the following
       //
-      // url - 'http://example.com'
+      // url: '/sexo',
       // relativePath - '/blog/post'
       // obj - {controller: 'blog', action: 'post'}
       // string - 'custom json response string'
       // default - 'default'
-      failure: 'default'
+      failure: '/login'
     },
 
     //post logout event

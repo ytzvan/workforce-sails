@@ -14,9 +14,4 @@ module.exports = require('waterlock').actions.user({
   
     }
   */
-  index: function(req, res) {
-  	 console.log("Esta authenticado ?", req.session.authenticated);
-  	 console.log("User", req.session.user);
-  	 res.send("hola");
-  }
 });

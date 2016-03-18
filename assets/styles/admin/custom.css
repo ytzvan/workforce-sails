@@ -1,0 +1,25 @@
+.colaborador .avatar {
+	text-align:center;
+}
+.colaborador .avatar .img-circle {
+	width: 50px;
+}
+.colaborador .text {
+	vertical-align: middle;
+	text-align: center;
+}
+.login-logo{
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #36404a;
+}
+.login-icon {
+	color:#5fbeaa;
+}
+.btn-login{
+	background-color: #5fbeaa;
+	color:white;
+}
